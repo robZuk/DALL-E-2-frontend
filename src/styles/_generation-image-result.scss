@@ -1,0 +1,43 @@
+.generated-image-wrapper {
+  & > p {
+    font-weight: bold;
+    padding: 10px;
+  }
+  .generated-image {
+    position: relative;
+    width: clamp(250px, min(450px, 90vw), 90vh);
+    height: clamp(250px, min(450px, 90vw), 90vh);
+
+    img {
+      width: clamp(250px, min(450px, 90vw), 90vh);
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      box-shadow: 0px 0px 11px -5px rgba(66, 68, 90, 1);
+    }
+
+    .description {
+      display: grid;
+      position: absolute;
+      bottom: 0;
+      height: 40%;
+      width: 100%;
+      opacity: 0;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      color: white;
+      transition: 0.3s;
+      .download {
+        justify-self: end;
+        align-self: end;
+        cursor: pointer;
+      }
+    }
+
+    &:hover {
+      .description {
+        opacity: 1;
+      }
+    }
+  }
+}

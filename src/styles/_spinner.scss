@@ -1,0 +1,12 @@
+.spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: clamp(250px, min(450px, 90vw), 90vh);
+  height: clamp(250px, min(450px, 90vw), 90vh);
+  border: 1px solid $color6;
+  background-color: $color3;
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px -5px rgba(66, 68, 90, 1);
+}
