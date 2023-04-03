@@ -8,7 +8,6 @@
 
 - React 18
 - React Router 6
-- Redux Toolkit
 - SASS
 - Express 4
 
