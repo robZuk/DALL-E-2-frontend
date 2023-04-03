@@ -1,6 +1,10 @@
-# Shoppingify
+# DALL-E-2 APP
 
-### [https://dall-e-2-frontend.onrender.com](https://dall-e-2-frontend.onrender.com)
+### Live: [https://dall-e-2-frontend.onrender.com](https://dall-e-2-frontend.onrender.com)
+
+### Frontend: [https://github.com/robZuk/DALL-E-2-frontend](https://github.com/robZuk/DALL-E-2-frontend)
+
+### Backend: [https://github.com/robZuk/DALL-E-2/](https://github.com/robZuk/DALL-E-2)
 
 ![dall-e-2](https://user-images.githubusercontent.com/40764780/229466400-921025ee-9465-4021-8b3f-1bbb1a5cf608.png)
 

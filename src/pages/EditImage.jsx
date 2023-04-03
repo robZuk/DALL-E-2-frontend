@@ -98,8 +98,10 @@ function EditImage() {
           non-transparent areas of the mask are not used when generating the
           output, so they don’t necessarily need to match the original image. To
           create non-transparent area you can use{" "}
-          <a href="https://labs.openai.com/editor">DALL-E-2 app</a> or another
-          tools.
+          <a href="https://labs.openai.com/editor" target="_blank">
+            DALL-E-2 app
+          </a>{" "}
+          or another tools.
         </p>
       </div>
       <div className="edit-image-upload-images">
